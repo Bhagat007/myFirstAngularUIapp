@@ -8,10 +8,16 @@ To run angular app:
 To make you angular app responsive and CSS stype use bootsrap with Angular:
  
 	npm install bootstrap
+
+    package.json will add this after install
+      "bootstrap": "^5.3.2",
+  
 	
 Install jquery you will see this all in package.json file automatically :
 
 	npm install jquery	
+    package.json will add this after install
+      "jquery": "^3.7.1",
 
 ## Development server
 
