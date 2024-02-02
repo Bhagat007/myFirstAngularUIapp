@@ -19,12 +19,21 @@ Install jquery you will see this all in package.json file automatically :
     package.json will add this after install
       "jquery": "^3.7.1",
 
- To generate new component      
+To generate new component      
 
     ng generate component mycomponent/todo
 
     *.spec.ts files are for test cases
+ To generate new component         
+ 
+myFirstAngularUIapp> ng generate component mycomponent/todo-items
+
+    CREATE src/app/mycomponent/todo-items/todo-items.component.html    -----------------------------> HTML 
+    CREATE src/app/mycomponent/todo-items/todo-items.component.spec.ts -----> For test cases
+    CREATE src/app/mycomponent/todo-items/todo-items.component.ts      -----------------------------> Logic typescript 
+    CREATE src/app/mycomponent/todo-items/todo-items.component.css     -----> CSS
     
+    But only 2 files are HTML and .ts we are modifying most of the time as beginner. Change to .ts are auto populated to HTML using {{Object}}     
 
 ## Development server
 
