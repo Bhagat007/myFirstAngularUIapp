@@ -19,6 +19,12 @@ Install jquery you will see this all in package.json file automatically :
     package.json will add this after install
       "jquery": "^3.7.1",
 
+ To generate new component      
+
+    ng generate component mycomponent/todo
+
+    *.spec.ts files are for test cases
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
