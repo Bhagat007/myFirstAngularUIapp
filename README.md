@@ -24,6 +24,7 @@ Install jquery you will see this all in package.json file automatically :
     ng generate component mycomponent/todo
 
     *.spec.ts files are for test cases
+    
 
 ## Development server
 
