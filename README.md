@@ -35,6 +35,10 @@ myFirstAngularUIapp> ng generate component mycomponent/todo-items
     
     But only 2 files are HTML and .ts we are modifying most of the time as beginner. Change to .ts are auto populated to HTML using {{Object}}     
 
+How to deploy/packge angular app
+    ng build --prod
+Command will package your angular app and now you can deploy it any server/container.
+     
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
